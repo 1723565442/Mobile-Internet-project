@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="header">
+    <image src="https://img1.imgtp.com/2023/10/08/6zbHuWKD.png" onclick="back"></image>
+    <text class="title">
+        {{ daTa.title }}
+    </text>
+    </div>
+    <text class="content">
+        {{ content }}
+    </text>
+    <image if="{{ flag}}" src="{{ imageurl}}"></image>
+
+</div>

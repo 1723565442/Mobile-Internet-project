@@ -1,0 +1,28 @@
+.container {
+    flex-direction: column;
+    width: 100%;
+    scrollbar-width: 0;
+}
+.header {
+    width: 100%;
+    flex-direction: row;
+    height: 8%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header image{
+    width: 35vp;
+    height: 35vp;
+}
+
+.title text{
+    margin-left: 20%;
+    font-size: 20fp;
+}
+.content{
+    margin-top: 20%;
+}
